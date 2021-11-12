@@ -1,0 +1,16 @@
+qwqd,qwd,1,1,1
+John Maeda,Redesigning Leadership,2011,96,614.13
+Peter A. High,World Class IT,2009,192,892.59
+Masashi Kishimoto,NARUTO 72,2016,208,35.56
+Tony Saldanha,Why Digital Transformations Fail,2019,216,820.33
+Arun Jai Singh,Blockchain for Business,2019,224,350.24
+Peter A. High,Implementing World Class IT Strategy:,2014,240,892.59
+John Maeda,How to Speak Machine,2019,240,499.49
+Thomas M. Siebel,Digital Transformation,2019,253,165.52
+Dante Alighieri,Divine Comedy,1888,256,126.21
+Ingo Averdunk,The Cloud Adoption Playbook,2018,272,407.08
+Kevin Kelly,The Inevitable,2016,336,492.37
+Douglas M. Branson,The Future of Tech Is Female,2020,336,832.48
+Brian Christian,Algorithms to Live By,2016,368,263.81
+Michael Bowles,Machine Learning with Spark and Python,2019,368,1245.56
+Bill Chambers,Spark: The Definitive Guide,2018,608,1176.54

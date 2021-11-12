@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PrefForm</class>
+ <widget class="QWidget" name="PrefForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>365</width>
+    <height>359</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(7, 20, 47);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>321</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(47, 61, 104);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>301</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+     background-color: rgb(47, 61, 104);
+}
+QCheckBox::indicator{
+     width: 40px;
+     height: 40px;
+}
+QCheckBox::indeterminate:hover{
+	 color: white;
+}
+QCheckBox{
+     background-color: rgb(47, 61, 104);
+     width: 40px;
+     height: 40px;
+	 color: white;
+}
+QCheckBox::indicator:unchecked:pressed{
+     background-color: rgb(67, 81, 124);
+	 width: 40px;
+     height: 40px;
+	 color: white;
+}
+QCheckBox::indicator:checked:pressed{
+     background-color: rgb(67, 81, 124);
+	 width: 40px;
+     height: 40px;
+	 color: white;
+}
+QCheckBox::indicator:unchecked{
+	 width: 40px;
+     height: 40px;
+	 color: white;
+}
+QCheckBox::indicator:checked:{
+	 width: 40px;
+     height: 40px;
+	 color: white;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>     Update info</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>321</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Roboto Mono</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	background-color: rgb(47, 61, 104);
+	border: 0px solid;
+	color: white;
+}
+QPushButton:hover
+{
+	background-color: rgb(67, 81, 124);
+	border: 0px solid;
+	color: white;
+}
+QPushButton:pressed
+{
+	background-color: rgb(57, 71, 114);
+	border: 0px solid;
+	color: white;
+}</string>
+   </property>
+   <property name="text">
+    <string>Delete all books</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OkButton">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>280</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Roboto Mono</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	border: 0px solid;
+	color: white;
+	background-color: rgb(33, 43, 73);
+}
+
+QPushButton:hover
+{
+	border: 0px solid;
+	color: white;
+	background-color: rgb(42, 55, 94);
+}
+
+QPushButton:pressed
+{
+	border: 0px solid;
+	color: white;
+	background-color: rgb(38, 50, 89);
+}</string>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
